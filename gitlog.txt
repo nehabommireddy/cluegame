@@ -1,0 +1,182 @@
+commit d4bf337d2a8da4cca2e50678defd0698f066629f
+Author: Neha Bommireddy <nb644@cornell.edu>
+Date:   Fri Mar 28 02:48:22 2025 -0400
+
+    Updated YAML file with video link
+
+commit df316e96397966b2f908f83ce6fb6548c27c9f3b
+Author: mt862 <mt862@cornell.edu>
+Date:   Fri Mar 28 01:23:13 2025 -0400
+
+    Fixed buggy driver to check if other player has any requested cards.
+
+commit dce98235ea3ae4b8121c0813718e625a387e1ccd
+Author: mt862 <mt862@cornell.edu>
+Date:   Fri Mar 28 00:06:08 2025 -0400
+
+    crreated yaml file
+
+commit a6cc1f6b7e4745d83032235e9538dea9a5b8e36f
+Author: Claire <cmy42@cornell.edu>
+Date:   Thu Mar 27 23:57:39 2025 -0400
+
+    Added termination cue to INSTALL.md
+
+commit 8a38b9315b7e5612e7b44fb51af03232d2f628fd
+Author: Claire <cmy42@cornell.edu>
+Date:   Thu Mar 27 23:53:42 2025 -0400
+
+    INSTALL.md file
+
+commit 323ce435bdc741e42a869e241880df00e9aed931
+Author: mt862 <mt862@cornell.edu>
+Date:   Thu Mar 27 23:20:12 2025 -0400
+
+    main.ml documentation
+
+commit 226a4f4d60721813ede1632885763b80553030b2
+Author: mt862 <mt862@cornell.edu>
+Date:   Thu Mar 27 23:14:18 2025 -0400
+
+    Added graceful termination to driver program.
+
+commit b3c403ede448aa17510e9bafc6df8c01b594c9ec
+Author: mt862 <mt862@cornell.edu>
+Date:   Thu Mar 27 21:43:12 2025 -0400
+
+    Added functionalities for driver
+
+commit ba1fdddd61878786dc5d22d3b9cd0c33dd485fd7
+Merge: 63494d8 de5b5fa
+Author: mt862 <mt862@cornell.edu>
+Date:   Thu Mar 27 19:01:51 2025 -0400
+
+    Merge remote-tracking branch 'refs/remotes/origin/main'
+
+commit 63494d8bfb6f486c24a8185a277bd61d0a2b86ce
+Author: mt862 <mt862@cornell.edu>
+Date:   Thu Mar 27 18:59:58 2025 -0400
+
+    debug classify_card
+
+commit de5b5fa41f011921a33cce035ef4a696bcfd6c58
+Merge: e68a98f d89d75e
+Author: Claire <cmy42@cornell.edu>
+Date:   Thu Mar 27 18:07:25 2025 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:sb2673/3110_Final_Project
+
+commit e68a98f9f5264449192c9eedb2a725945b9036f2
+Author: Claire <cmy42@cornell.edu>
+Date:   Thu Mar 27 18:05:51 2025 -0400
+
+    Fixed documentation
+
+commit f71a097e3ad453d11c8e024f5f73979335468572
+Author: Claire <cmy42@cornell.edu>
+Date:   Thu Mar 27 18:00:57 2025 -0400
+
+    Fixed documentation for tests: player.ml, clue_sheet.ml
+
+commit d89d75e75c7d1a0542d5c779fff81230563cdee9
+Merge: c135be5 f57728a
+Author: mt862 <mt862@cornell.edu>
+Date:   Thu Mar 27 17:28:49 2025 -0400
+
+    Merge remote-tracking branch 'refs/remotes/origin/main'
+
+commit c135be5ced572acf791748fd13f48ef19d1f8224
+Author: mt862 <mt862@cornell.edu>
+Date:   Thu Mar 27 16:00:31 2025 -0400
+
+    Completed driver implementation in main.ml, added string_to_card in cards.ml
+
+commit f57728a15fc160d40bc89c7aa1f6626f09f83fca
+Author: Neha Bommireddy <nb644@cornell.edu>
+Date:   Thu Mar 27 13:47:13 2025 -0400
+
+    Added test suite for game.ml and card.ml
+    
+    - added specifications to card.mli
+    - tested all of the functions in game.ml and card.ml
+
+commit d25715df7f090d1fd26852927801b2196f22ac32
+Author: Surabhi Bachhav <sb2673@cornell.edu>
+Date:   Thu Mar 27 02:31:48 2025 -0400
+
+    Wrote driver program in main.ml
+
+commit 6fa8254faa057fbc72cf514dd4947bf280f00315
+Author: Neha Bommireddy <nb644@cornell.edu>
+Date:   Wed Mar 26 11:15:04 2025 -0400
+
+    Fixed error in cards.ml
+    
+    - Deleted repeats in suspects and weapons
+
+commit 1fa8ac08ea9f647d9e20df27a7e1f12bd5e21d16
+Author: Claire <cmy42@cornell.edu>
+Date:   Tue Mar 25 21:12:04 2025 -0400
+
+    Player implementation + test suite for player, clue_sheet
+
+commit 9256dc9eba85fbbc60bf4e673fde0712db46452a
+Author: Claire <cmy42@cornell.edu>
+Date:   Tue Mar 25 20:58:15 2025 -0400
+
+    Clue_sheet implementation
+
+commit 8e70b366f9fe794e7edddc249ec0366858ca8cd2
+Author: Neha Bommireddy <nb644@cornell.edu>
+Date:   Tue Mar 25 03:03:30 2025 -0400
+
+    Implemented game.ml
+    
+    - added specifications to game.mli
+    - implemented choose_solution, remove_card, list_of_cards_without_solution, shuffle_list, and get_six_cards
+
+commit 79ab3bbe2c2d71163976d10f4472065e0b33b654
+Merge: 2802ad5 d5af8f0
+Author: Neha Bommireddy <nb644@cornell.edu>
+Date:   Mon Mar 24 20:26:24 2025 -0400
+
+    Initial Commit
+    
+    - Implemented functions in cards.ml
+    - Implemented functions in game.ml
+
+commit 2802ad516fb4ffc4cbb539c7275b9223ec79a327
+Author: Neha Bommireddy <nb644@cornell.edu>
+Date:   Mon Mar 24 20:13:15 2025 -0400
+
+    Initial commit
+
+commit d5af8f06c23223b5c3b05dac15b3d9aa71bc6773
+Author: sb2673 <sb2673@cornell.edu>
+Date:   Sat Mar 8 16:11:15 2025 -0500
+
+    Update README.md
+
+commit 6da2370528e26cd4a1b7b730061866d98ec05033
+Author: nb644 <19135+nb644@users.noreply.github.coecis.cornell.edu>
+Date:   Sat Mar 8 16:11:03 2025 -0500
+
+    Update README.md
+
+commit 9d75b74cecfcbe0da23fccb0c034b282e6c13cb0
+Author: cmy42 <18964+cmy42@users.noreply.github.coecis.cornell.edu>
+Date:   Sat Mar 8 16:07:08 2025 -0500
+
+    Update README.md
+
+commit 49c31814db8cd3ffd565acc2e643e0535e3daf62
+Author: mt862 <mt862@cornell.edu>
+Date:   Sat Mar 8 16:06:27 2025 -0500
+
+    Update README.md
+
+commit 79e565a5d0e19616c337b6d585d95875e604e597
+Author: sb2673 <sb2673@cornell.edu>
+Date:   Sat Mar 8 15:58:41 2025 -0500
+
+    Initial commit

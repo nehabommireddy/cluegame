@@ -1,0 +1,36 @@
+---
+# Members of your group.
+group:  
+  - name: Mahitha Thippireddy
+    netid: mt862
+  - name: Claire Yu
+    netid: cmy42
+  - name: Neha Bommireddy
+    netid: nb644
+  - name: Surabhi Bachhav
+    netid: sb2673
+
+# Your PM.
+pm:
+  name: Huajie (Anson) Zhong
+  netid: hz642
+# Set to false if you don't want your gallery entry to be public.
+publish: true
+# Pithy title
+title: "Caml Case Closed"
+# OK if this is a Cornell Github link, but public gallery viewers won't be able to see it.
+git-repo: "https://github.coecis.cornell.edu/sb2673/3110_Final_Project"
+# Replace the URL with your own demo video.
+demo-video-url: https://youtu.be/ReB5SAYFwMQ
+# Write a short, attention-grabbing description of your project.
+desc: >
+  Our project is an interactive game inspired by CLUE. Players go through a 
+  turn-based system where players can move through rooms of their choice and 
+  question suspects and guess what weapons they used.
+
+  The interface supports text-based interaction for making accusations, asking
+  questions. You can track discovered information through the displayed clue sheet
+  which is printed on every turn. The game ensures each game is randomized by shuffling 
+  cards before each iteration.
+
+
